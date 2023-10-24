@@ -19,15 +19,21 @@ This is a simple CRUD (Create, Read, Update, Delete) application written in Rust
 
 1. Clone the repository
 ```
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com/Another-DevX/Rust-Crud
 ```
 
 2. Build and run the Docker container
 ```
-docker-compose up --build
+docker-compose up -d db
+
+docker-compose build
+
+docker compose up rustapp
 ```
 
 ## API Endpoints
+
+To use API endpoints call localhost:8080/ROUTE in postman with te given nomenclature
 
 - POST /users: Create a new user
 - GET /users: Retrieve all users
