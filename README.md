@@ -40,7 +40,3 @@ To use API endpoints call localhost:8080/ROUTE in postman with te given nomencla
 - GET /users/{id}: Retrieve a user by ID
 - PUT /users/{id}: Update a user by ID
 - DELETE /users/{id}: Delete a user by ID
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
